@@ -14,8 +14,8 @@ time.sleep(3)
 
 #Registration
 
-click_register = driver.find_element(By.XPATH, "//*[contains(text(), 'Register')]").click()
-
+# click_register = driver.find_element(By.XPATH, "//*[contains(text(), 'Register')]").click()
+click_register = driver.find_element(By.XPATH, "//*[contains(text(), 'rgstr')]").click()
 time.sleep(3)
 
 #fill details for Registrations
